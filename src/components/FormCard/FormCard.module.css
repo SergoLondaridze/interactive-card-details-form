@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&family=Overpass:wght@400;500;600;700&family=Poppins:wght@400;900&family=Space+Mono:wght@400;700&display=swap');
+
+.formcontainer {
+  margin-right: 10%;
+  margin-bottom: 40px;
+  width: 34%;
+}
+
+.pError1 {
+  position: absolute;
+  color: red;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  top: 100px;
+  left: 10px;
+}
+
+.pError2 {
+  position: absolute;
+  color: red;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  left: 100px;
+  top: 100px;
+}
+
+.inputError {
+  border: 1px solid red;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 82%;
+  height: 45px;
+}
+
+.cvcInputError {
+  background: #FFFFFF;
+  border: 1px solid red;
+  border-radius: 8px;
+  height: 45px;
+  width: 70%;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+
+.pErrorcvc {
+  position: relative;
+  color: red;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  top: 10px;
+  left: 16px;
+}
+
+.dataInputError {
+  background: #FFFFFF;
+  border: 1px solid red;
+  border-radius: 8px;
+  width: 46%;
+  height: 45px;
+  margin-left: 6px;
+}
+
+.pError {
+  margin-top: 10px;
+  color: red;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.nameInput {
+  background: #FFFFFF;
+  border: 1px solid #DFDEE0;
+  border-radius: 8px;
+  width: 82%;
+  height: 45px;
+}
+
+input {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #21092F;
+  padding-left: 16px;
+}
+
+.labelName {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #21092F;
+  display: block;
+}
+
+input::placeholder {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #21092F;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+input:focus {
+  border: 1px solid rgba(99, 72, 254, 1);
+}
+
+.dataInput {
+  background: #FFFFFF;
+  border: 1px solid #DFDEE0;
+  border-radius: 8px;
+  width: 46%;
+  height: 45px;
+}
+
+.dataInput:last-child {
+  margin-left: 8px;
+}
+
+.inputFlex {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.inputFlex div:first-child {
+  width: 40%;
+}
+
+.cvcInput {
+  background: #FFFFFF;
+  border: 1px solid #DFDEE0;
+  border-radius: 8px;
+  height: 45px;
+  width: 76%;
+  border-radius: 8px;
+}
+
+.labelNamecvc {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #21092F;
+  display: block;
+  margin-left: 20px;
+}
+
+label {
+  margin-top: 26px;
+  margin-bottom: 9px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.btnsubmit {
+  background: #21092F;
+  border-radius: 8px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  height: 53px;
+  width: 82%;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+@media(max-width:375px) {
+  .formcontainer {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .nameInput {
+    width: 100%;
+    height: 45px;
+  }
+
+  .inputError {
+    width: 100%;
+    height: 45px;
+  }
+
+  .dataInput {
+    width: 46%;
+    height: 45px;
+  }
+
+  .dataInput:last-child {
+    margin-left: 8px;
+  }
+
+  .inputFlex {
+    width: 100%;
+    display: flex;
+    position: relative;
+    gap: 6px;
+  }
+
+  .inputFlex div:first-child {
+    width: 60%;
+  }
+
+  .cvcInput {
+    height: 45px;
+    width: 96%;
+  }
+
+  .cvcInputError {
+    width: 96%;
+    margin-left: 10px;
+  }
+
+  .pError2 {
+    font-size: 12px;
+    line-height: 10px;
+    left: 86px;
+    top: 100px;
+  }
+
+  .pError1 {
+    font-size: 12px;
+    line-height: 10px;
+    left: 6px;
+  }
+
+  .pErrorcvc {
+    font-size: 12px;
+    line-height: 10px;
+    top: 6px;
+    left: 10px;
+  }
+
+  .btnsubmit {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-top: 20px;
+    margin-bottom: 9px;
+  }
+}

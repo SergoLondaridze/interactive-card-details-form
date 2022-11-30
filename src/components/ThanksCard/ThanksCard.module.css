@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&family=Overpass:wght@400;500;600;700&family=Poppins:wght@400;900&family=Space+Mono:wght@400;700&display=swap');
+
+.thanksVontainer {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 260px;
+    width: 28%;
+}
+
+.thankP1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 3.42222px;
+    color: #21092F;
+}
+
+.thankP2 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #8F8694;
+}
+
+.thanksBtn {
+    background: #21092F;
+    border-radius: 8px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 53px;
+}
+
+@media(max-width:375px) {
+    .thanksVontainer {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 260px;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&family=Overpass:wght@400;500;600;700&family=Poppins:wght@400;900&family=Space+Mono:wght@400;700&display=swap');
+
+.App {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media(max-width:375px) {
+    .App {
+        max-width: 375px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+}
